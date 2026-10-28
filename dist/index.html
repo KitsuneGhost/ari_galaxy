@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07050e"><meta name="description" content="A little letter, and a universe of love. Just for Ari.">
+<title>For Ari, with love</title><link rel="stylesheet" href="style.css">
+</head>
+<body data-scene="invitation">
+<canvas id="space" aria-hidden="true"></canvas>
+<main>
+<section id="invitation" class="scene invitation" aria-labelledby="invitation-title">
+<p class="eyebrow">JUST BETWEEN US</p>
+<h1 id="invitation-title">A little something<br><em>for you, Ari.</em></h1>
+<p class="soft">Some things are better said in a letter.</p>
+<button id="open-envelope" class="envelope" aria-label="Open your love letter"><span class="paper-peek" aria-hidden="true">Mi amor,</span><span class="envelope-body" aria-hidden="true"></span><span class="flap" aria-hidden="true"></span><span class="seal" aria-hidden="true">♡</span><span class="envelope-caption" aria-hidden="true">FOR YOU, WITH ALL MY LOVE</span></button>
+<button id="open-letter" class="pill">Open your letter <span>↗</span></button>
+<p class="tiny">Take your time. This moment is yours.</p>
+</section>
+<section id="galaxy" class="scene galaxy-scene" hidden aria-labelledby="galaxy-title">
+<div class="galaxy-heading"><p class="eyebrow">EVERY LITTLE WORD, A LITTLE LOVE</p><h1 id="galaxy-title">A universe <em>of us.</em></h1></div>
+<div class="galaxy-stage"><canvas id="words" aria-hidden="true"></canvas><button id="center" aria-label="Discover what is at the center of my universe"><span class="core-orbit" aria-hidden="true"></span><span class="heart" aria-hidden="true">♡</span></button><span class="center-hint" aria-hidden="true">the center of it all</span></div>
+<p class="galaxy-instruction">Every word finds its way back to you.<br><span>Touch the heart at the center.</span></p>
+<button id="reread" class="text-button">Read your letter again ↗</button>
+<div class="sr-only"><h2>Our messages</h2><ul id="accessible-phrases"></ul></div>
+</section>
+</main>
+<footer>YOURS, IN EVERY UNIVERSE <span>♡</span></footer>
+<dialog id="letter" aria-labelledby="letter-title"><article class="letter-sheet"><p class="letter-kicker">A LETTER FOR YOU</p><h2 id="letter-title">My dearest Ari,</h2><div id="letter-body"></div><p id="signature" class="signature"></p><div class="letter-end"><span aria-hidden="true">♡</span><button id="close-letter" class="ink-button">Fold your letter <span>↗</span></button><p>There’s a little more waiting for you.</p></div></article></dialog>
+<dialog id="reveal" aria-labelledby="reveal-title"><button id="close-reveal" class="close" aria-label="Return to the galaxy">×</button><p class="eyebrow">AT THE CENTER OF EVERYTHING</p><div class="world" aria-hidden="true"><span>♡</span></div><p class="reveal-name">Ari,</p><h2 id="reveal-title"></h2><p id="reveal-copy"></p><p class="translation">You are my world.</p><button id="back-to-stars" class="pill">Stay among the stars <span>✧</span></button></dialog>
+<script src="content.js"></script><script src="app.js"></script>
+</body></html>

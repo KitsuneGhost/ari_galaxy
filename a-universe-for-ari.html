@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07050e"><meta name="description" content="A little letter, and a universe of love. Just for Ari.">
+<title>For Ari, with love</title><style>@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap');
+:root{color-scheme:dark;--cream:#f6eee8;--pink:#e9b9cb;--muted:#b4a4b9}*{box-sizing:border-box}body{margin:0;background:#07050e;color:var(--cream);font:14px/1.6 'DM Sans',sans-serif;min-height:100svh;overflow-x:hidden}button{font:inherit;cursor:pointer}button:focus-visible{outline:2px solid #ffcbdc;outline-offset:8px}button:hover{filter:brightness(1.12)}[hidden]{display:none!important}#space{position:fixed;inset:0;width:100%;height:100%;z-index:-1;background:radial-gradient(ellipse at 50% 55%,#27152f55,transparent 70%)}main{min-height:calc(100svh - 55px)}.scene{animation:appear 1.4s ease both}.invitation{text-align:center;min-height:calc(100svh - 55px);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:50px 20px 20px}.eyebrow{font-size:9px;letter-spacing:3.2px;color:var(--pink)}h1{font:clamp(46px,5.5vw,76px)/1.07 'Instrument Serif',Georgia,serif;font-weight:400;margin:22px 0 15px}h1 em{font-weight:400;color:var(--pink)}.soft{color:var(--muted);font-size:13px}.envelope{display:block;position:relative;width:264px;height:169px;margin:62px 0 43px;background:transparent;border:0;filter:drop-shadow(0 18px 40px #0008);transition:transform .5s}.envelope:hover{transform:translateY(-8px) rotate(-2deg)}.envelope-body{position:absolute;inset:0;background:linear-gradient(30deg,#bfa3a4,#e4c8bf);border-radius:4px;overflow:hidden}.envelope-body:before,.envelope-body:after{content:'';position:absolute;bottom:-63px;width:220px;height:190px;background:#d8bab2;transform:rotate(34deg);left:-115px;box-shadow:0 0 1px #846269}.envelope-body:after{left:auto;right:-115px;transform:rotate(-34deg);background:#e1c3b9}.flap{position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(#ead1c7,#d1aba9);clip-path:polygon(0 0,100% 0,50% 58%);filter:drop-shadow(0 2px 1px #0004)}.seal{position:absolute;top:70px;left:calc(50% - 22px);width:44px;height:44px;border-radius:50%;background:radial-gradient(circle at 35% 25%,#b6607b,#792e52);border:3px double #ca849144;box-shadow:0 3px 7px #54303e66;color:#f4b7c7;font:26px/38px Georgia,serif}.envelope-caption{position:absolute;bottom:17px;left:0;right:0;font-size:7px;letter-spacing:2px;color:#75535a}.paper-peek{position:absolute;left:15px;right:15px;top:-13px;height:60px;border-radius:3px;background:#f5e9dc;color:#836675;text-align:left;padding:7px 18px;font:italic 19px Georgia,serif;transform:rotate(-3deg)}.pill{background:#eac8d1;border:1px solid #f8dae3;color:#301c2c;border-radius:100px;padding:13px 26px;transition:transform .3s;letter-spacing:.2px;font-size:12px}.pill span{margin-left:16px}.pill:hover{transform:translateY(-2px)}.tiny{font-size:10px;letter-spacing:.4px;color:#8d7b96;margin:21px 0 0}footer{height:55px;display:flex;align-items:center;justify-content:center;gap:12px;letter-spacing:2.4px;font-size:8px;color:#8c7897}footer span{color:var(--pink);font-size:15px}.galaxy-scene{text-align:center;position:relative;min-height:calc(100svh - 55px);padding:40px 0 20px;display:flex;flex-direction:column;align-items:center;justify-content:center}.galaxy-heading{position:relative;z-index:1;pointer-events:none}.galaxy-heading h1{font-size:clamp(40px,5vw,64px);margin:10px 0}.galaxy-stage{position:relative;width:100%;height:clamp(360px,57svh,660px)}#words{position:absolute;inset:0;width:100%;height:100%}#center{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:70px;height:70px;border-radius:50%;border:1px solid #ffd3e34d;background:radial-gradient(circle,#edbddb4d,#edbddb05 70%);color:#fff0f6;box-shadow:0 0 25px #e7b5d655,0 0 80px #ca78dc25;display:grid;place-items:center;transition:box-shadow .4s}#center:hover{box-shadow:0 0 35px #e7b5d699,0 0 100px #ca78dc55}.heart{font:30px Georgia,serif;text-shadow:0 0 15px #ffb7df}.core-orbit{position:absolute;inset:-9px;border-radius:50%;border:1px solid #ebc2ea22;animation:breathe 4s infinite alternate}.center-hint{position:absolute;top:calc(50% + 54px);left:50%;transform:translateX(-50%);font-size:8px;letter-spacing:1.6px;white-space:nowrap;color:#d7b2cc;pointer-events:none}.galaxy-instruction{color:#d1bbd4;font:italic 18px/1.8 'Instrument Serif',Georgia,serif;margin:0 15px}.galaxy-instruction span{font:10px 'DM Sans',sans-serif;color:#8c7897}.text-button{background:none;border:0;color:#b29abd;font-size:10px;letter-spacing:.4px;padding:15px;margin-top:6px}dialog{padding:0;border:0;max-height:88svh;max-width:90vw}dialog::backdrop{background:#08040dc9;backdrop-filter:blur(12px)}#letter{width:570px;background:#f2e7d9;color:#49343d;border-radius:5px;box-shadow:0 30px 130px #0009;color-scheme:light;animation:unfold .55s ease}.letter-sheet{padding:44px 48px;background:radial-gradient(ellipse at 10% 20%,#ffffff66,transparent 70%);text-align:left}.letter-kicker{font-size:8px;letter-spacing:2.8px;color:#9f7b80;margin:0 0 30px}#letter h2{font:italic 36px 'Instrument Serif',Georgia,serif;font-weight:400;margin:0 0 23px}#letter-body p{font:16px/1.95 Georgia,serif;white-space:pre-wrap;overflow-wrap:anywhere;margin:0 0 18px}.signature{font:italic 23px/1.5 'Instrument Serif',Georgia,serif;margin-top:28px;color:#956475}.letter-end{border-top:1px solid #a97e7729;margin-top:28px;padding-top:20px;text-align:center}.letter-end>span{display:block;color:#ab7188;font-size:24px}.ink-button{background:#785162;color:#fcf0e4;border:0;padding:12px 24px;border-radius:50px;font-size:11px;margin-top:12px}.ink-button span{margin-left:15px}.letter-end p{font-size:9px;color:#977e82;margin:12px 0 0}#reveal{width:540px;background:radial-gradient(ellipse at 50% 30%,#39203d,#130e20 72%);color:var(--cream);border:1px solid #eabdd62a;border-radius:24px;padding:45px 35px;text-align:center;box-shadow:0 0 150px #d278c322;animation:appear .8s ease}.close{position:absolute;top:8px;right:14px;font-size:26px;border:0;background:none;color:#b59bac;padding:6px 10px}.world{width:125px;height:125px;border-radius:50%;margin:35px auto 25px;background:radial-gradient(circle at 30% 30%,#facddd80,#b278b144 40%,#2b1a4255 70%);border:1px solid #e4bbdd4a;box-shadow:inset -15px -15px 30px #080611aa,0 0 60px #db9acb22;display:grid;place-items:center;position:relative}.world:after{content:'';position:absolute;inset:35px -28px;border:1px solid #f5c8e155;border-radius:50%;transform:rotate(-30deg);pointer-events:none}.world span{font:40px Georgia,serif;color:#fce2ee;text-shadow:0 0 20px #ffb5df}.reveal-name{font:italic 25px 'Instrument Serif',Georgia,serif;color:var(--pink);margin:0}#reveal h2{font:clamp(44px,7vw,65px) 'Instrument Serif',Georgia,serif;font-weight:400;margin:0 0 20px}#reveal-copy{font-size:13px;line-height:1.9;color:#cbb5ce;max-width:355px;margin:0 auto}.translation{font:italic 21px 'Instrument Serif',Georgia,serif;color:var(--pink);margin:24px 0 30px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@keyframes appear{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}@keyframes unfold{from{opacity:0;transform:translateY(25px) scale(.96)}to{opacity:1;transform:translateY(0) scale(1)}}@keyframes breathe{to{transform:scale(1.15);opacity:.3}}@media(max-width:600px){.invitation{padding-top:35px}.envelope{width:240px;height:154px;margin:50px 0 37px}.seal{top:62px}.galaxy-scene{padding-top:28px}.galaxy-stage{height:55svh;min-height:340px}.letter-sheet{padding:35px 26px}#letter-body p{font-size:15px}#reveal{padding:38px 24px}.world{width:100px;height:100px;margin:25px auto}.eyebrow{font-size:8px;letter-spacing:2.3px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body data-scene="invitation">
+<canvas id="space" aria-hidden="true"></canvas>
+<main>
+<section id="invitation" class="scene invitation" aria-labelledby="invitation-title">
+<p class="eyebrow">JUST BETWEEN US</p>
+<h1 id="invitation-title">A little something<br><em>for you, Ari.</em></h1>
+<p class="soft">Some things are better said in a letter.</p>
+<button id="open-envelope" class="envelope" aria-label="Open your love letter"><span class="paper-peek" aria-hidden="true">Mi amor,</span><span class="envelope-body" aria-hidden="true"></span><span class="flap" aria-hidden="true"></span><span class="seal" aria-hidden="true">♡</span><span class="envelope-caption" aria-hidden="true">FOR YOU, WITH ALL MY LOVE</span></button>
+<button id="open-letter" class="pill">Open your letter <span>↗</span></button>
+<p class="tiny">Take your time. This moment is yours.</p>
+</section>
+<section id="galaxy" class="scene galaxy-scene" hidden aria-labelledby="galaxy-title">
+<div class="galaxy-heading"><p class="eyebrow">EVERY LITTLE WORD, A LITTLE LOVE</p><h1 id="galaxy-title">A universe <em>of us.</em></h1></div>
+<div class="galaxy-stage"><canvas id="words" aria-hidden="true"></canvas><button id="center" aria-label="Discover what is at the center of my universe"><span class="core-orbit" aria-hidden="true"></span><span class="heart" aria-hidden="true">♡</span></button><span class="center-hint" aria-hidden="true">the center of it all</span></div>
+<p class="galaxy-instruction">Every word finds its way back to you.<br><span>Touch the heart at the center.</span></p>
+<button id="reread" class="text-button">Read your letter again ↗</button>
+<div class="sr-only"><h2>Our messages</h2><ul id="accessible-phrases"></ul></div>
+</section>
+</main>
+<footer>YOURS, IN EVERY UNIVERSE <span>♡</span></footer>
+<dialog id="letter" aria-labelledby="letter-title"><article class="letter-sheet"><p class="letter-kicker">A LETTER FOR YOU</p><h2 id="letter-title">My dearest Ari,</h2><div id="letter-body"></div><p id="signature" class="signature"></p><div class="letter-end"><span aria-hidden="true">♡</span><button id="close-letter" class="ink-button">Fold your letter <span>↗</span></button><p>There’s a little more waiting for you.</p></div></article></dialog>
+<dialog id="reveal" aria-labelledby="reveal-title"><button id="close-reveal" class="close" aria-label="Return to the galaxy">×</button><p class="eyebrow">AT THE CENTER OF EVERYTHING</p><div class="world" aria-hidden="true"><span>♡</span></div><p class="reveal-name">Ari,</p><h2 id="reveal-title"></h2><p id="reveal-copy"></p><p class="translation">You are my world.</p><button id="back-to-stars" class="pill">Stay among the stars <span>✧</span></button></dialog>
+<script>// Replace this draft with your own love letter. Blank lines separate paragraphs.
+window.GIFT = {
+  name: 'Ari',
+  letter: `Mi amor,
+
+There are so many little things I love about you. The way you laugh. The way a message from you can change my whole day. The way being with you feels like home when nowhere else in the world does.
+
+We went from friends to lovers, from dreams to reality, from loneliness to being each other's piece, from strangers to a couple that will stay together forever.
+
+If I could gather every sweet thing I've ever wanted to tell you, I think it would look a little like the universe waiting behind this letter. There's just too many things to say.
+
+Thank you for being you, and for always being there for me. I will start working soon, but even if I will not be able to see you often, you will always remain my favourite person in this whole world and I will love you forever.
+
+Te amo, siempre.`,
+  signature: 'Con todo mi amor ♡',
+  phrases: ['I love you', 'Sos mi amor', 'Te amo', 'Mi vida', 'Mi lugar favorito', 'Siempre vos', 'My favourite person', 'Любовь всей моей жизни', 'Я тебя люблю', 'Mi amor bonito', 'You feel like home', 'Vos y yo', 'Mi cielo', 'Me hacés feliz', 'Todo con vos', 'Ты моя вселенная', 'Sos mi alegría', 'Un besito más', 'You & me, always', 'Mi persona favorita', 'Te adoro', 'Mi corazón es tuyo', 'Sos mi estrella', 'Sos mi paz', 'Sos mi mundo'],
+  revealTitle: 'Sos mi mundo.',
+  revealText: 'All these words, all these stars, all this love… and at the center of everything, there’s you. I love you, Ari.'
+};
+</script><script>(() => {
+'use strict';
+const $ = s => document.querySelector(s);
+const gift = window.GIFT;
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
+let revealed = false;
+let galaxyActive = false;
+let animation = 0;
+let lastTime = 0;
+let rotation = 0;
+let layout = [];
+const canvas = $('#words');
+const ctx = canvas.getContext('2d');
+let width = 0, height = 0;
+$('#invitation-title').replaceChildren(document.createTextNode('A little something'),document.createElement('br'));
+const greeting = document.createElement('em'); greeting.textContent = `for you, ${gift.name}.`; $('#invitation-title').append(greeting);
+$('#letter-title').textContent = `My dearest ${gift.name},`;
+$('.reveal-name').textContent = `${gift.name},`;
+$('#reveal-title').textContent = gift.revealTitle;
+$('#reveal-copy').textContent = gift.revealText;
+$('#signature').textContent = gift.signature;
+for (const text of gift.letter.split(/\n\s*\n/)) {const p = document.createElement('p');p.textContent=text;$('#letter-body').append(p);}
+for (const phrase of gift.phrases) {const li=document.createElement('li');li.textContent=phrase;$('#accessible-phrases').append(li);}
+function openLetter(){
+  $('#letter').showModal(); $('#letter').scrollTop=0;
+  // Keep the complete letter in view initially instead of scrolling to the bottom button.
+  $('#letter').focus({preventScroll:true}); pause();
+}
+$('#open-envelope').addEventListener('click',openLetter);
+$('#open-letter').addEventListener('click',openLetter);
+$('#reread').addEventListener('click',openLetter);
+function revealGalaxy(){
+  if(!revealed){revealed=true;$('#invitation').hidden=true;$('#galaxy').hidden=false;document.body.dataset.scene='galaxy';galaxyActive=true;resize();$('#center').focus({preventScroll:true});}
+  resume();
+}
+$('#close-letter').addEventListener('click',()=>$('#letter').close());
+$('#letter').addEventListener('close',revealGalaxy);
+$('#center').addEventListener('click',()=>{pause();$('#reveal').showModal();});
+$('#close-reveal').addEventListener('click',()=>$('#reveal').close());
+$('#back-to-stars').addEventListener('click',()=>$('#reveal').close());
+$('#reveal').addEventListener('close',()=>{resume();$('#center').focus({preventScroll:true});});
+function pause(){cancelAnimationFrame(animation);animation=0;lastTime=0;}
+function resume(){if(!galaxyActive||document.hidden||$('#letter').open||$('#reveal').open)return;pause();if(reduceMotion.matches){draw();return}animation=requestAnimationFrame(frame);}
+// Four spiral arms, each physically formed from many tiny words.
+// Rotate in the galaxy plane, then tilt the disk to give it depth.
+function resize(){
+  const rect=canvas.getBoundingClientRect();width=rect.width;height=rect.height;if(!width||!height)return;
+  const dpr=Math.min(devicePixelRatio||1,2);canvas.width=Math.round(width*dpr);canvas.height=Math.round(height*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);
+  const mobile=width<600;
+  const count=mobile?180:300;
+  let seed=2718;const rand=()=>{seed=seed*16807%2147483647;return(seed-1)/2147483646};
+  layout=Array.from({length:count},(_,i)=>{
+    const arm=i%4;const t=(Math.floor(i/4)+1)/(Math.ceil(count/4)+1);
+    return {radius:.17+Math.pow(t,.82)*.81,theta:arm*Math.PI/2+t*5.6+(rand()-.5)*.32,size:(mobile?6.2:7.2)+rand()*4.4,text:gift.phrases[i%gift.phrases.length],tint:rand(),alpha:.42+rand()*.5};
+  });
+  draw();
+}
+function draw(){
+  if(!width||!height)return;ctx.clearRect(0,0,width,height);
+  const cx=width/2,cy=height/2;
+  const spread=Math.min(width*.44,height*.83,620);
+  const glow=ctx.createRadialGradient(cx,cy,4,cx,cy,spread*.85);glow.addColorStop(0,'rgba(249,185,221,.13)');glow.addColorStop(.35,'rgba(162,89,200,.055)');glow.addColorStop(1,'rgba(80,30,120,0)');ctx.fillStyle=glow;ctx.fillRect(0,0,width,height);
+  const points=layout.map(p=>{
+    const a=p.theta+rotation,x=Math.cos(a)*p.radius*spread,y=Math.sin(a)*p.radius*spread;
+    // Project an inclined disk onto the screen, with its major axis slightly diagonal.
+    const tilt=.56,slant=-.18;
+    return {...p,x:cx+x*Math.cos(slant)-y*tilt*Math.sin(slant),y:cy+x*Math.sin(slant)+y*tilt*Math.cos(slant),depth:Math.sin(a)};
+  }).sort((a,b)=>a.depth-b.depth);
+  ctx.textAlign='center';ctx.textBaseline='middle';
+  for(const p of points){
+    if(Math.hypot(p.x-cx,p.y-cy)<62)continue;
+    const depth=.85+(p.depth+1)*.1;
+    ctx.font=`${(p.size*depth).toFixed(1)}px Georgia, serif`;
+    ctx.fillStyle=p.tint>.64?`rgba(228,190,255,${p.alpha})`:`rgba(255,205,224,${p.alpha})`;
+    ctx.shadowBlur=p.size>10?5:2;ctx.shadowColor=p.tint>.64?'#ac68e8':'#ef96be';
+    ctx.fillText(p.text,p.x,p.y);
+  }
+  ctx.shadowBlur=0;
+}
+function frame(time){if(lastTime)rotation+=Math.min(time-lastTime,50)*.000018;lastTime=time;draw();animation=requestAnimationFrame(frame);}
+function background(){
+  const bg=$('#space'), c=bg.getContext('2d'),dpr=Math.min(devicePixelRatio||1,2),w=innerWidth,h=innerHeight;
+  bg.width=w*dpr;bg.height=h*dpr;c.setTransform(dpr,0,0,dpr,0,0);
+  let seed=42;const rand=()=>{seed=seed*16807%2147483647;return(seed-1)/2147483646};
+  for(let i=0;i<Math.min(w*h/3500,480);i++){c.beginPath();c.arc(rand()*w,rand()*h,rand()*.85+.12,0,Math.PI*2);c.fillStyle=`rgba(230,211,248,${rand()*.46+.09})`;c.fill();}
+}
+window.addEventListener('resize',()=>{background();if(galaxyActive)resize();});
+document.addEventListener('visibilitychange',()=>document.hidden?pause():resume());
+reduceMotion.addEventListener('change',()=>{pause();resume();});
+background();
+if(document.fonts)document.fonts.ready.then(()=>{if(galaxyActive)draw();});
+})();
+</script>
+</body></html>
